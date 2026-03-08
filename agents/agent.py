@@ -38,7 +38,7 @@ PGDATABASE = os.environ["PGDATABASE"]
 PGUSER = os.environ["PGUSER"]
 PGPASSWORD = os.environ["PGPASSWORD"]
 
-POSTGRES_URI = "postgresql://postgres:0307@localhost:5432/aidb"
+POSTGRES_URI = "postgresql://postgres:yourpassword@localhost:5432/yourdbname"
 
 
 
@@ -592,3 +592,4 @@ root_agent
 
 #     print("\nFINAL RESULT:")
 #     print(output)
+
